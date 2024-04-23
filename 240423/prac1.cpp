@@ -1,16 +1,24 @@
-ï»¿
 #include <iostream>
 
-int main()
-{
-    for (int i = 0; i < 5; i++) 
-    {
-        std::cout << "Iteration : " << i + 1 << std::endl;
-    }
-    for (int j = 0; j < 10000; j++) 
-    {
-        std::cout << j << std::endl;
-    }
+int main() {
 
-    return 0;
+	std::cout << "(1)\n----5´Ü----\n";
+
+	for (int i = 0; i < 9; i++) {
+		std::cout << "5 * " << i + 1 << " = " << 5 * (i + 1) << std::endl;
+
+	}
+
+	std::cout << "(2)\n";
+
+	for (int j = 0; j < 9; j++) {
+		std::cout << "----" << j + 1 << "´Ü----\n";
+		
+		for (int k = 0; k < 9; k++) {
+
+		std::cout << j + 1 << " * " << k + 1 << " = " << (j + 1) * (k + 1) << std::endl;
+
+		}
+
+	}
 }
