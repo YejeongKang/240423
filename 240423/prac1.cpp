@@ -1,18 +1,18 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main() {
 
-	std::cout << "(1) 5´Ü Ãâ·Â\n----5´Ü----\n";
+	std::cout << "(1) 5ë‹¨ ì¶œë ¥\n----5ë‹¨----\n";
 
 	for (int i = 1; i < 10; i++) {
 		std::cout << "5 * " << i << " = " << 5 * i  << std::endl;
 
 	}
 
-	std::cout << "(2) 1 ~ 9´Ü Ãâ·Â\n";
+	std::cout << "(2) 1 ~ 9ë‹¨ ì¶œë ¥\n";
 
 	for (int j = 1; j < 10; j++) {
-		std::cout << "----" << j << "´Ü----\n";
+		std::cout << "----" << j << "ë‹¨----\n";
 		
 		for (int k = 1; k < 10; k++) {
 
