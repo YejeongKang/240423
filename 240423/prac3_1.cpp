@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main() {
 
@@ -6,17 +6,17 @@ int main() {
 	int j = 1;
 	int k = 1;
 	
-	std::cout << "(1) 5´Ü Ãâ·Â\n----5´Ü----\n";
+	std::cout << "(1) 5ë‹¨ ì¶œë ¥\n----5ë‹¨----\n";
 
 	while (i <= 9) {
 		std::cout << "5 * " << i << " = " << 5 * i << std::endl;
 		i++;
 	}
 
-	std::cout << "(2) 1 ~ 9´Ü Ãâ·Â\n";
+	std::cout << "(2) 1 ~ 9ë‹¨ ì¶œë ¥\n";
 	
 	while (j <= 9) {
-		std::cout << "----" << j << "´Ü----\n"; 
+		std::cout << "----" << j << "ë‹¨----\n"; 
 
 		while (k <= 9) {
 			std::cout << j << " * " << k << " = " << j * k << std::endl;
